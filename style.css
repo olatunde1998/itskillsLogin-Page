@@ -1,86 +1,79 @@
-@import url('https://fonts.google.com/specimen/Open+Sans');
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.google.com/specimen/Open+Sans");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html{
-    font-size: 62.5%;
-    font-family: 'Roboto', sans-serif;
-    background-color: rgba(255, 255, 255, 1);
-    color: rgba(0, 0, 0, 1);
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
 }
-img{
-    max-width:100%;
-    height:auto;
+img {
+  max-width: 100%;
+  height: auto;
 }
-body{
-    background-color: black;
-    padding: 100px 20px 100px 20px;
+body {
+  background-color: black;
+  padding: 100px 20px 100px 20px;
 }
-#container{
-    background-color: #5e91f7;
-    width: 100%;
-    height: 100vh;
+#container {
+  background-color: #5e91f7;
+  width: 100%;
+  height: 100vh;
 }
-#envelope{
-    width: 40px;
+#envelope {
+  width: 40px;
 }
-#row1{
-    text-align: center;
-    padding-top: 100px;
+#row1 {
+  text-align: center;
+  padding-top: 100px;
 }
-#welcome{
-    color: white;
-    font-size: 25px;
-    font-weight: 200;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+#welcome {
+  color: white;
+  font-size: 25px;
+  font-weight: 200;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-#row2{
-    text-align: center;
+#row2 {
+  text-align: center;
 }
-#card{
-    background-color: white;
-    width: 400px;
-    margin: 0 auto;
-    padding: 50px;
-    border-radius: 6px;
+#card {
+  background-color: white;
+  width: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 6px;
 }
-button,input{
-    width: 100%;
-    border-radius: 3px;
-    border: 1px solid;
-    border-color: #ccc;
-    margin: 5px 0px;
-    padding: 15px 10px;
+button,
+input {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #ccc;
+  margin: 5px 0px;
+  padding: 15px 10px;
 }
-button{
-    background-color: #5e91f7;;
-    color: white;
-}   
-#second{
-    width: 400px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 0px;
-    color: white;
+button {
+  background-color: #5e91f7;
+  color: white;
 }
-
-
-/* a{
-    text-decoration: none;
-    color: rgba(0, 0, 0, 1);
-} */
-@media only screen and (min-width: 768px){
+#second {
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0px;
+  color: white;
 }
 
-@media only screen and (min-width: 943px){
+@media only screen and (min-width: 768px) {
+}
 
-      img{
-        max-width:100%;
-        height:auto;
-    } 
-   
+@media only screen and (min-width: 943px) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
